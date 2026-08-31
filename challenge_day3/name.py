@@ -1,7 +1,7 @@
 def maname():
     name = "Zeno"
     print(name)
-    return (name)
+    return print(name)
 
 maname()
 
