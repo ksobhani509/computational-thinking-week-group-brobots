@@ -7,6 +7,8 @@ def exercize():
     teamname = "Brobots"
     return print(f"This is team {teamname} and we are:")
 
+exercize()
+
 from lara import laraname
 
 
