@@ -1,4 +1,7 @@
+
 import sys
+# sys.path.append("challenge_day1")
+
 
 def exercize():
     teamname = "Brobots"
@@ -6,13 +9,14 @@ def exercize():
 
 from lara import laraname
 
+
 laraname()
 
-from lol import sname 
+from lol import sname
 
 sname()
 
-from luc_name import name 
+from luc_name import name
 
 name()
 
