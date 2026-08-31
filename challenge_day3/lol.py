@@ -1,2 +1,2 @@
 def sname():
-    return "Krishiv"
+    return print("Krishiv")
