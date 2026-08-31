@@ -26,3 +26,6 @@ from name import maname
 
 maname()
 
+from file import jakub
+
+jakub()
