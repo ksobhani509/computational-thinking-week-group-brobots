@@ -3,7 +3,6 @@ def maname():
     print(name)
     return print(name)
 
-maname()
 
 def exercize():
     teamname = "Brobots"
