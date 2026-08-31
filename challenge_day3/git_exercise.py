@@ -1,5 +1,9 @@
 import sys
 
+def exercize():
+    teamname = "Brobots"
+    return print(f"This is team {teamname} and we are:")
+
 from lara import laraname
 
 laraname()
@@ -15,3 +19,4 @@ name()
 from name import maname
 
 maname()
+
