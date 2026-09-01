@@ -24,12 +24,8 @@ name()
 
 from name import maname
 
-<<<<<<< HEAD
-maname()
-=======
 maname()
 
 from file import jakub
 
 jakub()
->>>>>>> 519966167832af7e1bc27080ce71f143be2c92ae
