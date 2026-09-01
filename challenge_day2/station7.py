@@ -1,13 +1,15 @@
 def solution_station_7(expression):
     values = {
         "a": 3,
-        "b": 4,
-        "c": -1,
+        "b": -1,
+        "c": 4,
         "d": 7,
         "e": 0.5,
     }
     
-    return eval(expression, {}, values)
+    result = (eval(expression, {"__builtins__": None}, values))
+
+    return float(result)
 
 #example   
 print(solution_station_7("b + d")) 

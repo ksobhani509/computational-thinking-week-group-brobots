@@ -1,6 +1,3 @@
-num = int(input("Input Number: "))
-
-
 def solution_station_4(x):
     if x < 2:
         return False
@@ -8,6 +5,3 @@ def solution_station_4(x):
         if x % i == 0:
             return False
     return True
-
-
-print(solution_station_4(num))
