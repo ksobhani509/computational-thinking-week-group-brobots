@@ -1,7 +1,7 @@
 num = int(input("Input Number: "))
 
 
-def prime_n(x):
+def solution_station_4(x):
     if x < 2:
         return False
     for i in range(2, int(x ** 0.5) + 1):
@@ -10,4 +10,4 @@ def prime_n(x):
     return True
 
 
-print(prime_n(num))
+print(solution_station_4(num))
