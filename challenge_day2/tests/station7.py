@@ -7,7 +7,7 @@ def solution_station_7(expression):
         "e": 0.5,
     }
     
-    return eval(expression, {"__builtins__": None}, values)
+    return eval(expression, {}, values)
 
 #example   
 print(solution_station_7("b + d")) 
