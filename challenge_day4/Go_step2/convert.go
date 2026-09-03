@@ -21,6 +21,7 @@ type People struct {
 	People []Person `json:"people"`
 }
 
+
 func main() {
 	// Read the JSON file
 	jsonFile, err := os.Open("data2.json")
@@ -29,6 +30,7 @@ func main() {
 		return
 	}
 	defer jsonFile.Close()
+	#
 
 	jsonBytes, err := ioutil.ReadAll(jsonFile)
 	if err != nil {
