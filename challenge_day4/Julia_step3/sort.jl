@@ -1,9 +1,9 @@
 using DataFrames, CSV, Statistics, DelimitedFiles
 
 # Read the CSV file into a DataFrame
-people_df = CSV.File("challenge_day4/testdata/data3.csv") |> DataFrame
+people_df = CSV.File("challenge_day4/Go_step2/data3.csv") |> DataFrame
 print("hi")
-println(people_df, 5)
+println(first(people_df, 5))
 
 # Function to classify a score based on quartiles
 function classify_score(score, quartiles)

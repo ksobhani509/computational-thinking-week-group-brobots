@@ -50,6 +50,7 @@ fn main() -> io::Result<()> {
                     num_skills += 1;
                 },
                 _ => (), // Skip if it's something else
+                
             }
         }
         
